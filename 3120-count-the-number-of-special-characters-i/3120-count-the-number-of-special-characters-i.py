@@ -3,7 +3,7 @@ class Solution:
         word = set(word)
         count = 0
         for w in word:
-            if w.lower() == w:
+            if w.lower() == w :
                 if w.upper() in word:
                     count += 1
                     

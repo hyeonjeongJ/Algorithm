@@ -6,5 +6,5 @@ class Solution:
             if i <= max_idx:
                 max_idx = max(max_idx, i + num)
         
-        return max_idx >= len(nums) - 1
+        return max_idx >= (len(nums) - 1)
         
